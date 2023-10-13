@@ -1,24 +1,14 @@
 
-
-/*--------------------------------------interface contacte---------------*/
-
 .contact {
     margin: 3%;
-
-
-
 }
 
-.Google {
-    
-}
 
 .container {
     width: 50%;
     margin-top: 5%;
     margin-left: 25%;
     margin-right: 25%;
-
     border-radius: 50px;
     border: 1px solid #000;
     background: var(--neutral-n-0, #FFF);
@@ -34,10 +24,10 @@ label {
     font-size: 1em;
 }
 
-input[type="text"],
-input[type="tel"],
-input[type="email"],
-textarea {
+.contact > input[type="text"],
+.contact > input[type="tel"],
+.contact > input[type="email"],
+.contact > textarea {
     width: 90%;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -51,4 +41,10 @@ button {
     font-size: 14px;
     border: none;
     border-radius: 10px;
+}
+
+.background_violet {
+    background-color: #6941C6;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
 }

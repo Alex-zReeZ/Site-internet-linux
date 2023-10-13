@@ -110,12 +110,13 @@ body {
 
 .Video_fabrication {
     display: flex;
-    width: 50%; 
+    width: 20vw; 
+    height: 20vw;
     flex-shrink: 0;
 }
 
 .texte_video {
     flex: 1;
     font-size: 2.5em;
-    padding-left: 86px;
+    margin-left: 200%;
 }
