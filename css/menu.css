@@ -35,7 +35,7 @@ body {
     display: grid;
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 2em;
 
 }
 
@@ -71,9 +71,7 @@ body {
 
 
 .mega_grid {
-    padding-left: 86px;
-    padding-top: 78px;
-    margin-right: 86px;
+    margin: 2%;
 }
 
 
@@ -90,7 +88,7 @@ body {
 
 .texte_nature {
     flex: 1;
-    font-size: 40px;
+    font-size: 2.5em;
     padding-right: 86px;
 }
 
@@ -103,7 +101,7 @@ body {
 
 .texte_livraison {
     flex: 1;
-    font-size: 40px;
+    font-size: 2em;
     padding-right: 86px;
     padding-top: 223px;
 }
@@ -112,16 +110,12 @@ body {
 
 .Video_fabrication {
     display: flex;
-    width: 796px;
-    height: 522px;
-    padding-top: 205px;
-    padding-right: 86px;
-    padding-bottom: 86px;
+    width: 50%; 
     flex-shrink: 0;
 }
 
 .texte_video {
     flex: 1;
-    font-size: 40px;
+    font-size: 2.5em;
     padding-left: 86px;
 }
